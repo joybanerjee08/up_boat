@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="366">
+ <tileset firstgid="1" source="UnderWater Tileset.tsx"/>
+ <layer id="1" name="Background" width="32" height="32">
+  <properties>
+   <property name="BackgroundColor" value="Gray"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52,53,53,53,53,53,53,53,53,53,53,53,53,59,0,0,52,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52,53,60,53,53,53,53,53,53,53,60,53,59,0,0,0,52,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52,53,53,53,53,53,60,53,53,53,53,59,0,0,0,0,52,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52,53,53,53,53,53,53,53,53,53,59,0,0,0,0,0,52,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52,53,53,53,53,53,53,53,53,59,0,0,0,0,0,0,52,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52,53,53,60,53,53,53,53,59,0,0,0,0,0,0,0,52,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52,53,53,53,53,53,53,59,0,0,0,0,0,0,0,0,52,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52,53,53,53,53,53,54,0,0,0,0,0,0,0,0,0,52,
+48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58,53,53,53,53,53,54,0,0,0,0,0,0,0,0,0,52,
+53,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52,53,60,53,53,54,0,0,0,0,0,0,0,0,0,52,
+53,53,48,0,0,0,0,0,0,0,0,0,0,0,0,0,58,53,53,53,53,54,0,0,0,0,0,0,0,0,47,53,
+53,53,53,48,0,0,0,0,0,0,0,0,0,0,0,0,0,52,53,53,53,54,0,0,0,0,0,0,47,44,53,53,
+53,53,53,53,48,0,0,0,0,0,0,0,0,0,0,0,0,52,53,60,53,54,0,0,0,0,0,0,52,60,53,53,
+53,60,53,53,53,44,44,44,44,48,0,0,0,0,0,0,0,52,53,53,53,59,0,0,0,0,0,0,52,53,53,53,
+53,53,53,53,53,60,53,53,53,54,0,0,0,0,0,0,0,52,53,53,53,0,0,0,0,0,0,0,58,53,53,60,
+53,60,53,53,53,53,53,53,60,54,0,0,0,0,0,0,0,52,53,53,59,0,0,0,0,0,0,0,0,58,53,53,
+53,2,2,2,2,2,2,2,2,59,0,0,0,0,0,0,0,58,53,54,0,0,0,0,0,0,0,0,0,0,58,53,
+59,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52,54,0,0,0,0,0,0,0,0,0,0,0,58,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52,54,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52,54,0,0,0,0,0,0,0,0,0,0,0,0,
+48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52,54,0,0,0,0,0,0,0,0,0,0,0,0,
+53,44,44,44,44,44,44,44,44,48,0,0,0,0,0,0,0,0,52,54,0,0,0,0,0,0,0,0,0,0,0,0,
+53,60,53,53,53,53,53,53,53,54,0,0,0,0,0,0,0,0,52,54,0,0,0,0,0,0,0,0,0,0,0,0,
+53,53,53,53,53,53,53,53,53,59,0,0,0,0,0,0,0,47,53,53,48,0,0,0,0,0,0,0,0,0,0,0,
+53,53,53,53,60,53,53,53,59,0,0,0,0,0,0,47,44,53,53,53,53,48,0,0,0,0,0,0,0,0,0,0,
+53,53,53,53,53,53,53,59,0,0,0,0,0,0,0,52,53,60,53,53,53,54,0,0,0,0,0,0,0,0,0,0,
+53,60,53,53,53,53,59,0,0,0,0,0,0,0,0,52,53,53,53,60,53,54,0,0,0,0,0,0,0,0,0,0,
+53,53,53,53,53,59,0,0,0,0,0,0,0,0,0,58,2,2,2,2,2,59,0,0,0,0,0,0,0,0,0,0,
+53,2,2,2,59,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+59,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82
+</data>
+ </layer>
+ <objectgroup id="3" name="Spawnpoints">
+  <object id="7" name="Player" type="Player" x="37" y="36.8333" width="86" height="88"/>
+  <object id="98" name="small" type="Jelly Fish" x="230" y="225" width="40" height="42"/>
+  <object id="99" name="coin" type="Money" x="530.667" y="743.667"/>
+  <object id="100" name="some_coin" type="Money" x="90.75" y="640"/>
+  <object id="101" name="blade" type="Craft" x="54" y="575.667"/>
+  <object id="102" name="rubber_sheet" type="Craft" x="26" y="977"/>
+  <object id="103" type="Trash" x="366.667" y="172"/>
+  <object id="104" type="Trash" x="242.667" y="77.3333"/>
+  <object id="105" type="Trash" x="392" y="76"/>
+  <object id="106" type="Trash" x="154.667" y="316"/>
+  <object id="107" type="Trash" x="373.333" y="386.667"/>
+  <object id="108" type="Trash" x="418.667" y="274.667"/>
+  <object id="109" type="Trash" x="274.667" y="332"/>
+  <object id="110" type="Trash" x="158.667" y="225.333"/>
+  <object id="111" type="Trash" x="456" y="472"/>
+  <object id="112" name="small" type="Jelly Fish" x="348" y="544"/>
+  <object id="113" type="Trash" x="496" y="588"/>
+  <object id="114" type="Trash" x="180" y="601.333"/>
+  <object id="115" type="Trash" x="185.333" y="576"/>
+  <object id="116" type="Trash" x="264" y="646.667"/>
+  <object id="117" type="Trash" x="376" y="761.333"/>
+  <object id="118" type="Trash" x="269.333" y="870.667"/>
+  <object id="119" type="Sellable" x="437.333" y="942.667"/>
+  <object id="120" type="Trash" x="469.333" y="712"/>
+  <object id="121" type="Trash" x="394.667" y="620"/>
+  <object id="122" type="Trash" x="426.667" y="850.667"/>
+  <object id="123" type="Trash" x="212" y="949.333"/>
+  <object id="124" name="stack" type="Money" x="124" y="964"/>
+  <object id="125" type="Trash" x="336" y="965.333"/>
+  <object id="126" type="Trash" x="222.667" y="897.333" width="1.33333"/>
+  <object id="127" type="Trash" x="294.667" y="805.333"/>
+  <object id="128" name="small" type="Jelly Fish" x="368" y="900"/>
+  <object id="129" name="small" type="Jelly Fish" x="226.667" y="901.333"/>
+  <object id="130" type="Sellable" x="578.667" y="961.333"/>
+  <object id="131" type="Trash" x="486.667" y="912"/>
+  <object id="132" type="Trash" x="484" y="962.667"/>
+  <object id="133" type="Trash" x="617.333" y="918.667"/>
+  <object id="134" name="bill" type="Money" x="702.667" y="969.333"/>
+  <object id="135" type="Sellable" x="778.667" y="862.667"/>
+  <object id="136" type="Trash" x="369.333" y="837.333" width="1.33333"/>
+  <object id="137" type="Trash" x="269.333" y="565.333"/>
+  <object id="138" name="small" type="Jelly Fish" x="166.977" y="638.349"/>
+  <object id="139" type="Trash" x="96" y="589.333"/>
+  <object id="140" type="Trash" x="385.333" y="684"/>
+  <object id="141" name="small" type="Jelly Fish" x="505.333" y="664"/>
+  <object id="142" name="wallet" type="Money" x="684" y="741.333"/>
+  <object id="143" type="Trash" x="836" y="716"/>
+  <object id="144" type="Sellable" x="883.583" y="950"/>
+  <object id="145" type="Trash" x="953.333" y="738.667"/>
+  <object id="146" name="small" type="Jelly Fish" x="832" y="818.667"/>
+  <object id="147" type="Trash" x="964" y="854.667"/>
+  <object id="148" type="Trash" x="893.333" y="622.667"/>
+  <object id="149" name="small" type="Jelly Fish" x="692" y="605.333"/>
+  <object id="150" type="Trash" x="808" y="536"/>
+  <object id="151" type="Trash" x="758.667" y="461.333" height="1.33333"/>
+  <object id="152" type="Trash" x="898.667" y="548"/>
+  <object id="153" name="small" type="Jelly Fish" x="818.667" y="634.667"/>
+  <object id="154" type="Trash" x="738.667" y="473.333"/>
+  <object id="155" type="Trash" x="806.667" y="372"/>
+  <object id="156" type="Sellable" x="845.333" y="426.667"/>
+  <object id="157" name="small" type="Jelly Fish" x="757.333" y="325.333"/>
+  <object id="158" type="Trash" x="852" y="264"/>
+  <object id="159" type="Trash" x="946.667" y="277.333"/>
+  <object id="160" type="Trash" x="800" y="449.333"/>
+  <object id="161" name="oxygen_fill" type="Consumable" x="878.667" y="348"/>
+  <object id="162" type="Trash" x="764" y="258.667"/>
+  <object id="163" type="Trash" x="754.667" y="669.333"/>
+  <object id="164" type="Trash" x="774.667" y="765.333"/>
+  <object id="165" type="Trash" x="921.333" y="804" width="20" height="22.6667"/>
+  <object id="166" type="Sellable" x="969.333" y="645.333"/>
+  <object id="167" type="Trash" x="906.667" y="805.333"/>
+  <object id="168" type="Trash" x="797.333" y="929.333"/>
+  <object id="169" type="Sellable" x="825.333" y="189.333"/>
+  <object id="170" type="Trash" x="912" y="213.333"/>
+  <object id="171" type="Trash" x="888" y="137.333"/>
+  <object id="172" type="Checkpoint" x="924" y="21.1667" width="61.3333" height="62.8333"/>
+  <object id="173" type="Fish" x="352" y="614.667"/>
+  <object id="174" type="Fish" x="436" y="348"/>
+  <object id="175" type="Fish" x="982.667" y="601.333"/>
+  <object id="176" type="Fish" x="261.334" y="948.666"/>
+  <object id="177" type="Fish" x="960" y="245.333"/>
+  <object id="179" name="medium" type="Jelly Fish" x="742.667" y="934.667" width="29.3333" height="46.6667"/>
+  <object id="181" name="Small" type="Rock" x="51.3333" y="294.5" width="12.625" height="12.5"/>
+  <object id="195" name="Small" type="Rock" x="102.875" y="352.042" width="12.125" height="10.5"/>
+  <object id="196" name="Small" type="Rock" x="40.375" y="282.917" width="12.625" height="13.125"/>
+  <object id="197" name="Small" type="Rock" x="14.5" y="257.958" width="14.875" height="15.5"/>
+  <object id="198" name="Small" type="Rock" x="62.4167" y="308.292" width="11.625" height="11.125"/>
+  <object id="199" name="Small" type="Rock" x="29.1667" y="269.958" width="14.375" height="14.125"/>
+  <object id="182" name="Small" type="Rock" x="71.3333" y="314.958" width="14" height="14.625"/>
+  <object id="194" name="Small" type="Rock" x="82.2083" y="328.042" width="10" height="11.125"/>
+  <object id="188" name="Small" type="Rock" x="95.875" y="342.875" width="10.875" height="11"/>
+  <object id="189" name="Small" type="Rock" x="111.333" y="354.542" width="14" height="13.5"/>
+  <object id="190" name="Small" type="Rock" x="119.708" y="359.833" width="19.9412" height="21.3862"/>
+  <object id="191" name="Small" type="Rock" x="86.75" y="329.625" width="16.5" height="15.875"/>
+  <object id="183" name="Small" type="Rock" x="131.552" y="373.166" width="19.3632" height="20.5192"/>
+  <object id="192" name="Small" type="Rock" x="143.831" y="388.397" width="19.3632" height="20.5192"/>
+  <object id="193" name="Small" type="Rock" x="151" y="397.875" width="15.125" height="16.75"/>
+  <object id="202" name="Small" type="Rock" x="165.25" y="400.875" width="15.125" height="16.75"/>
+  <object id="203" name="Small" type="Rock" x="289.25" y="410.875" width="15.125" height="16.75"/>
+  <object id="204" name="Small" type="Rock" x="297.25" y="415.625" width="15.125" height="16.75"/>
+  <object id="205" name="Small" type="Rock" x="305.75" y="421.375" width="15.125" height="16.75"/>
+  <object id="206" name="Small" type="Rock" x="312.5" y="428.375" width="15.125" height="16.75"/>
+  <object id="207" name="Small" type="Rock" x="317.5" y="433.875" width="15.125" height="16.75"/>
+  <object id="208" name="Small" type="Rock" x="310.75" y="680.625" width="15.125" height="16.75"/>
+  <object id="209" name="Small" type="Rock" x="288.25" y="662.125" width="15.125" height="16.75"/>
+  <object id="212" name="Small" type="Rock" x="276" y="659.625" width="15.125" height="16.75"/>
+  <object id="213" name="Small" type="Rock" x="262.5" y="656.875" width="15.125" height="16.75"/>
+  <object id="272" name="Small" type="Rock" x="163.167" y="980.875" width="15.125" height="16.75"/>
+  <object id="273" name="Small" type="Rock" x="149.833" y="980.875" width="15.125" height="16.75"/>
+  <object id="274" name="Small" type="Rock" x="137.833" y="981.208" width="15.125" height="16.75"/>
+  <object id="275" name="Small" type="Rock" x="128.5" y="980.542" width="15.125" height="16.75"/>
+  <object id="276" name="Small" type="Rock" x="318.167" y="981.208" width="15.125" height="16.75"/>
+  <object id="277" name="Small" type="Rock" x="330.5" y="983.208" width="15.125" height="16.75"/>
+  <object id="278" name="Small" type="Rock" x="341.5" y="981.875" width="15.125" height="16.75"/>
+  <object id="279" name="Small" type="Rock" x="306.167" y="981.875" width="15.125" height="16.75"/>
+  <object id="280" name="Small" type="Rock" x="306.167" y="981.875" width="15.125" height="16.75"/>
+  <object id="288" name="Small" type="Rock" x="290.833" y="981.208" width="15.125" height="16.75"/>
+  <object id="289" name="Small" type="Rock" x="268.5" y="980.875" width="15.125" height="16.75"/>
+  <object id="290" name="Small" type="Rock" x="259.833" y="980.208" width="15.125" height="16.75"/>
+  <object id="281" name="Small" type="Rock" x="411.833" y="982.208" width="15.125" height="16.75"/>
+  <object id="284" name="Small" type="Rock" x="422.5" y="981.542" width="15.125" height="16.75"/>
+  <object id="285" name="Small" type="Rock" x="429.167" y="983.875" width="15.125" height="16.75"/>
+  <object id="286" name="Small" type="Rock" x="429.167" y="983.875" width="15.125" height="16.75"/>
+  <object id="287" name="Small" type="Rock" x="439.5" y="984.208" width="15.125" height="16.75"/>
+  <object id="291" name="Small" type="Rock" x="622.833" y="983.208" width="15.125" height="16.75"/>
+  <object id="297" name="Small" type="Rock" x="675.833" y="980.542" width="15.125" height="16.75"/>
+  <object id="299" name="Small" type="Rock" x="685.167" y="981.542" width="15.125" height="16.75"/>
+  <object id="300" name="Small" type="Rock" x="693.833" y="981.875" width="15.125" height="16.75"/>
+  <object id="301" name="Small" type="Rock" x="700.5" y="982.542" width="15.125" height="16.75"/>
+  <object id="302" name="Small" type="Rock" x="801.5" y="980.542" width="15.125" height="16.75"/>
+  <object id="303" name="Small" type="Rock" x="793.167" y="983.542" width="15.125" height="16.75"/>
+  <object id="304" name="Small" type="Rock" x="783.5" y="984.542" width="15.125" height="16.75"/>
+  <object id="305" name="Small" type="Rock" x="783.5" y="984.542" width="15.125" height="16.75"/>
+  <object id="306" name="Small" type="Rock" x="773.833" y="985.208" width="15.125" height="16.75"/>
+  <object id="307" name="Small" type="Rock" x="946.5" y="982.875" width="15.125" height="16.75"/>
+  <object id="315" name="Small" type="Rock" x="939.5" y="982.208" width="15.125" height="16.75"/>
+  <object id="316" name="Small" type="Rock" x="930.833" y="984.875" width="15.125" height="16.75"/>
+  <object id="317" name="Small" type="Rock" x="930.833" y="984.875" width="15.125" height="16.75"/>
+  <object id="318" name="Small" type="Rock" x="937.167" y="985.208" width="15.125" height="16.75"/>
+  <object id="319" name="Small" type="Rock" x="917.833" y="985.208" width="15.125" height="16.75"/>
+  <object id="345" name="Small" type="Rock" x="986.25" y="318.708" width="15.125" height="16.75"/>
+  <object id="346" name="Small" type="Rock" x="974.5" y="326.042" width="15.125" height="16.75"/>
+  <object id="347" name="Small" type="Rock" x="966.917" y="337.708" width="15.125" height="16.75"/>
+  <object id="352" name="Small" type="Rock" x="957.25" y="342.375" width="15.125" height="16.75"/>
+  <object id="348" name="Small" type="Rock" x="915" y="353.458" width="15.125" height="16.75"/>
+  <object id="349" name="Small" type="Rock" x="921.25" y="349.708" width="15.125" height="16.75"/>
+  <object id="350" name="Small" type="Rock" x="908.583" y="357.042" width="15.125" height="16.75"/>
+  <object id="351" name="Small" type="Rock" x="899.917" y="368.375" width="15.125" height="16.75"/>
+  <object id="320" name="Small" type="Rock" x="990.167" y="983.542" width="15.125" height="16.75"/>
+  <object id="322" name="Small" type="Rock" x="981.167" y="980.542" width="15.125" height="16.75"/>
+  <object id="323" name="Small" type="Rock" x="996.833" y="983.542" width="15.125" height="16.75"/>
+  <object id="321" name="Small" type="Rock" x="981.167" y="983.875" width="15.125" height="16.75"/>
+  <object id="308" name="Small" type="Rock" x="864.5" y="982.875" width="15.125" height="16.75"/>
+  <object id="309" name="Small" type="Rock" x="872.167" y="983.542" width="15.125" height="16.75"/>
+  <object id="310" name="Small" type="Rock" x="876.5" y="983.542" width="15.125" height="16.75"/>
+  <object id="311" name="Small" type="Rock" x="839.833" y="983.542" width="15.125" height="16.75"/>
+  <object id="312" name="Small" type="Rock" x="834.833" y="983.542" width="15.125" height="16.75"/>
+  <object id="313" name="Small" type="Rock" x="849.5" y="981.875" width="15.125" height="16.75"/>
+  <object id="314" name="Small" type="Rock" x="849.5" y="981.875" width="15.125" height="16.75"/>
+  <object id="298" name="Small" type="Rock" x="634.5" y="982.875" width="15.125" height="16.75"/>
+  <object id="292" name="Small" type="Rock" x="614.5" y="984.208" width="15.125" height="16.75"/>
+  <object id="293" name="Small" type="Rock" x="597.833" y="985.208" width="15.125" height="16.75"/>
+  <object id="295" name="Small" type="Rock" x="589.167" y="985.875" width="15.125" height="16.75"/>
+  <object id="296" name="Small" type="Rock" x="589.167" y="985.875" width="15.125" height="16.75"/>
+  <object id="294" name="Small" type="Rock" x="606.167" y="983.875" width="15.125" height="16.75"/>
+  <object id="282" name="Small" type="Rock" x="358.833" y="983.208" width="15.125" height="16.75"/>
+  <object id="283" name="Small" type="Rock" x="358.833" y="983.208" width="15.125" height="16.75"/>
+  <object id="264" name="Small" type="Rock" x="236.75" y="658.875" width="15.125" height="16.75"/>
+  <object id="262" name="Small" type="Rock" x="250" y="656.875" width="15.125" height="16.75"/>
+  <object id="263" name="Small" type="Rock" x="294" y="662.875" width="15.125" height="16.75"/>
+  <object id="214" name="Small" type="Rock" x="234.75" y="656.625" width="15.125" height="16.75"/>
+  <object id="220" name="Small" type="Rock" x="215.5" y="657.875" width="15.125" height="16.75"/>
+  <object id="227" name="Small" type="Rock" x="25" y="654.625" width="15.125" height="16.75"/>
+  <object id="232" name="Small" type="Rock" x="94" y="655.625" width="15.125" height="16.75"/>
+  <object id="233" name="Small" type="Rock" x="120.5" y="659.375" width="15.125" height="16.75"/>
+  <object id="234" name="Small" type="Rock" x="191" y="659.875" width="15.125" height="16.75"/>
+  <object id="235" name="Small" type="Rock" x="119.25" y="656.625" width="15.125" height="16.75"/>
+  <object id="240" name="Small" type="Rock" x="122.25" y="657.125" width="15.125" height="16.75"/>
+  <object id="241" name="Small" type="Rock" x="122.25" y="657.125" width="15.125" height="16.75"/>
+  <object id="242" name="Small" type="Rock" x="131.5" y="658.125" width="15.125" height="16.75"/>
+  <object id="243" name="Small" type="Rock" x="137.25" y="659.125" width="15.125" height="16.75"/>
+  <object id="244" name="Small" type="Rock" x="144" y="658.375" width="15.125" height="16.75"/>
+  <object id="245" name="Small" type="Rock" x="152.5" y="659.625" width="15.125" height="16.75"/>
+  <object id="246" name="Small" type="Rock" x="83.25" y="657.125" width="15.125" height="16.75"/>
+  <object id="247" name="Small" type="Rock" x="57.75" y="656.125" width="15.125" height="16.75"/>
+  <object id="248" name="Small" type="Rock" x="51" y="656.125" width="15.125" height="16.75"/>
+  <object id="249" name="Small" type="Rock" x="47.25" y="657.375" width="15.125" height="16.75"/>
+  <object id="250" name="Small" type="Rock" x="70" y="657.375" width="15.125" height="16.75"/>
+  <object id="251" name="Small" type="Rock" x="85.5" y="659.625" width="15.125" height="16.75"/>
+  <object id="252" name="Small" type="Rock" x="314.25" y="689.125" width="15.125" height="16.75"/>
+  <object id="324" name="Small" type="Rock" x="558.917" y="738.542" width="15.7917" height="15.75"/>
+  <object id="326" name="Small" type="Rock" x="549.75" y="748.5" width="15.125" height="16.75"/>
+  <object id="329" name="Small" type="Rock" x="652.625" y="735.167" width="15.125" height="16.75"/>
+  <object id="339" name="Small" type="Rock" x="658.5" y="741.292" width="15.125" height="16.75"/>
+  <object id="331" name="Small" type="Rock" x="664.25" y="748.583" width="15.125" height="16.75"/>
+  <object id="332" name="Small" type="Rock" x="671" y="756.208" width="15.125" height="16.75"/>
+  <object id="333" name="Small" type="Rock" x="678.875" y="763.208" width="15.125" height="16.75"/>
+  <object id="340" name="Small" type="Rock" x="690.875" y="775.958" width="15.125" height="16.75"/>
+  <object id="341" name="Small" type="Rock" x="686" y="769.458" width="15.125" height="16.75"/>
+  <object id="334" name="Small" type="Rock" x="697.958" y="780.583" width="15.125" height="16.75"/>
+  <object id="335" name="Small" type="Rock" x="541.458" y="755.542" width="15.125" height="16.75"/>
+  <object id="330" name="Small" type="Rock" x="641" y="722.917" width="15.125" height="16.4167"/>
+  <object id="338" name="Small" type="Rock" x="648.375" y="728.542" width="15.125" height="16.4167"/>
+  <object id="327" name="Small" type="Rock" x="488.667" y="785.917" width="15.125" height="16.75"/>
+  <object id="336" name="Small" type="Rock" x="517.083" y="758.417" width="15.125" height="16.75"/>
+  <object id="337" name="Small" type="Rock" x="508.375" y="762.083" width="15.125" height="16.75"/>
+  <object id="342" name="Small" type="Rock" x="502.375" y="769.208" width="15.125" height="16.75"/>
+  <object id="343" name="Small" type="Rock" x="494.625" y="777.583" width="15.125" height="16.75"/>
+  <object id="328" name="Small" type="Rock" x="528.667" y="755.167" width="15.125" height="16.75"/>
+  <object id="325" name="Small" type="Rock" x="570.083" y="733.5" width="15.125" height="16.75"/>
+  <object id="253" name="Small" type="Rock" x="140" y="660.875" width="15.125" height="16.75"/>
+  <object id="254" name="Small" type="Rock" x="157.75" y="659.875" width="15.125" height="16.75"/>
+  <object id="255" name="Small" type="Rock" x="194.75" y="659" width="15.125" height="16.75"/>
+  <object id="256" name="Small" type="Rock" x="99.75" y="660" width="15.125" height="16.75"/>
+  <object id="257" name="Small" type="Rock" x="113" y="658.5" width="15.125" height="16.75"/>
+  <object id="258" name="Small" type="Rock" x="107.75" y="658" width="15.125" height="16.75"/>
+  <object id="259" name="Small" type="Rock" x="224" y="659.5" width="15.125" height="16.75"/>
+  <object id="260" name="Small" type="Rock" x="306.25" y="681.25" width="15.125" height="16.75"/>
+  <object id="261" name="Small" type="Rock" x="203.25" y="658.75" width="15.125" height="16.75"/>
+  <object id="236" name="Small" type="Rock" x="162.75" y="656.375" width="15.125" height="16.75"/>
+  <object id="237" name="Small" type="Rock" x="176" y="656.625" width="15.125" height="16.75"/>
+  <object id="238" name="Small" type="Rock" x="185" y="657.125" width="15.125" height="16.75"/>
+  <object id="239" name="Small" type="Rock" x="247" y="658.625" width="15.125" height="16.75"/>
+  <object id="210" name="Small" type="Rock" x="298.75" y="672.375" width="15.125" height="16.75"/>
+  <object id="184" name="Large" type="Rock" x="183" y="382.5" width="38" height="33.5"/>
+  <object id="200" name="Large" type="Rock" x="215" y="383.5" width="38" height="33.5"/>
+  <object id="185" name="Large" type="Rock" x="252" y="385" width="27.5" height="30.5"/>
+  <object id="224" name="Large" type="Rock" x="64.75" y="631.75" width="44.25" height="45.75"/>
+  <object id="230" name="Large" type="Rock" x="140" y="631.5" width="40.5" height="45.75"/>
+  <object id="231" name="Large" type="Rock" x="212" y="635.5" width="44.25" height="45.75"/>
+  <object id="265" name="Large" type="Rock" x="274.667" y="956.833" width="44.25" height="45.75"/>
+  <object id="266" name="Large" type="Rock" x="374.667" y="956.833" width="44.25" height="45.75"/>
+  <object id="271" name="Large" type="Rock" x="213.333" y="954.833" width="44.25" height="45.75"/>
+  <object id="268" name="Large" type="Rock" x="640" y="958.167" width="44.25" height="45.75"/>
+  <object id="269" name="Large" type="Rock" x="818.667" y="960.167" width="44.25" height="45.75"/>
+  <object id="344" name="Large" type="Rock" x="961.833" y="319.333" width="44.25" height="45.75"/>
+  <object id="270" name="Large" type="Rock" x="954" y="958.833" width="44.25" height="45.75"/>
+  <object id="267" name="Large" type="Rock" x="172" y="956.167" width="44.25" height="45.75"/>
+  <object id="201" name="Large" type="Rock" x="281.5" y="387" width="27.5" height="30.5"/>
+  <object id="357" type="Urchin" x="4.5" y="611" width="32" height="32.5"/>
+  <object id="358" type="Crab" x="124.955" y="986.682"/>
+  <object id="359" name="large" type="Crab" x="867.409" y="972.25"/>
+  <object id="360" type="Fish" x="946" y="922"/>
+  <object id="361" type="Fish" x="843.5" y="693"/>
+  <object id="362" type="Fish" x="862" y="545"/>
+  <object id="363" type="Fish" x="394" y="849"/>
+  <object id="365" type="Fish" x="427" y="146"/>
+ </objectgroup>
+ <objectgroup id="4" name="Collisions">
+  <object id="8" type="Ground" x="0" y="415.5" width="289.5" height="128"/>
+  <object id="9" type="Ground" x="289.5" y="446" width="30" height="66"/>
+  <object id="10" type="Ground" x="0.5" y="331" width="76" height="83.5"/>
+  <object id="11" type="Ground" x="76.5" y="372" width="39.5" height="42.5"/>
+  <object id="13" type="Ground" x="-0.5" y="286.5" width="32" height="43.5"/>
+  <object id="20" type="Ground" x="10" y="275.5"/>
+  <object id="21" type="Ground" x="42.5" y="319"/>
+  <object id="22" type="Ground" x="86.5" y="361.625"/>
+  <object id="23" type="Ground" x="126" y="404.5"/>
+  <object id="24" type="Ground" x="10.5" y="554.5"/>
+  <object id="25" type="Ground" x="10" y="662"/>
+  <object id="26" type="Ground" x="-0.5" y="672" width="129" height="255"/>
+  <object id="27" type="Ground" x="128.5" y="672" width="160.5" height="95.5"/>
+  <object id="28" type="Ground" x="129.5" y="768" width="94.5" height="63.5"/>
+  <object id="29" type="Ground" x="129" y="832" width="63.5" height="31"/>
+  <object id="30" type="Ground" x="129.5" y="863" width="31.5" height="32.5"/>
+  <object id="32" type="Ground" x="139" y="905"/>
+  <object id="34" type="Ground" x="172" y="874.5"/>
+  <object id="35" type="Ground" x="203.5" y="842.5"/>
+  <object id="36" type="Ground" x="224" y="768" width="32" height="32"/>
+  <object id="37" type="Ground" x="235" y="811"/>
+  <object id="38" type="Ground" x="266" y="778"/>
+  <object id="39" type="Ground" x="289" y="696.5" width="30.5" height="43"/>
+  <object id="40" type="Ground" x="299.5" y="750.5"/>
+  <object id="41" type="Ground" x="299" y="686.5"/>
+  <object id="42" type="Ground" x="10" y="937"/>
+  <object id="43" type="Ground" x="1" y="992" width="1022" height="33"/>
+  <object id="44" type="Border" x="-2" y="0" width="6" height="1026"/>
+  <object id="46" type="Border" x="1.33333" y="-1.33333" width="1022.67" height="5.33333"/>
+  <object id="48" type="Ground" x="299" y="436.5"/>
+  <object id="49" type="Ground" x="299.5" y="522.5"/>
+  <object id="51" type="Ground" x="480" y="3.33333" width="222.667" height="252"/>
+  <object id="52" type="Ground" x="703.333" y="3.33333" width="111.333" height="109.333"/>
+  <object id="53" type="Ground" x="814.667" y="2.66667" width="62" height="50.6667"/>
+  <object id="54" type="Ground" x="702.667" y="112.667" width="52" height="60"/>
+  <object id="57" type="Ground" x="726.182" y="182"/>
+  <object id="58" type="Ground" x="702.727" y="172.545" width="13.2727" height="40.1818"/>
+  <object id="61" type="Ground" x="784.909" y="123.273"/>
+  <object id="62" type="Ground" x="765.273" y="143.273"/>
+  <object id="64" type="Ground" x="844.545" y="63.6364"/>
+  <object id="65" type="Ground" x="824.727" y="83.2727"/>
+  <object id="68" type="Ground" x="876.909" y="3.81818" width="24.7273" height="22.5455"/>
+  <object id="69" type="Ground" x="490.318" y="256.432" width="21.5" height="21.75"/>
+  <object id="70" type="Ground" x="512.5" y="256.568" width="190.773" height="63.7955"/>
+  <object id="71" type="Ground" x="545" y="320.333" width="158.667" height="95.3333"/>
+  <object id="72" type="Ground" x="535" y="330.333"/>
+  <object id="73" type="Ground" x="682" y="425.667"/>
+  <object id="74" type="Ground" x="544.333" y="415" width="127.667" height="64"/>
+  <object id="75" type="Ground" x="651" y="489.667"/>
+  <object id="76" type="Ground" x="544.333" y="479" width="96" height="34.6667"/>
+  <object id="77" type="Ground" x="566" y="524"/>
+  <object id="78" type="Ground" x="576.667" y="513.333" width="62.6667" height="253.333"/>
+  <object id="79" type="Ground" x="512.667" y="768" width="158.667" height="128.667"/>
+  <object id="80" type="Ground" x="649.667" y="756.667"/>
+  <object id="81" type="Ground" x="565.667" y="756.333"/>
+  <object id="82" type="Ground" x="682" y="786"/>
+  <object id="83" type="Ground" x="681.667" y="874.333"/>
+  <object id="84" type="Ground" x="672" y="796.333" width="31.6667" height="66.6667"/>
+  <object id="85" type="Ground" x="502" y="787.667"/>
+  <object id="86" type="Ground" x="502" y="877.333"/>
+  <object id="87" type="Ground" x="480.333" y="799.667" width="31.6667" height="67"/>
+  <object id="88" type="Ground" x="992" y="5" width="33" height="542"/>
+  <object id="89" type="Ground" x="928" y="352" width="63.5" height="127"/>
+  <object id="90" type="Ground" x="957.5" y="490"/>
+  <object id="91" type="Ground" x="979" y="512"/>
+  <object id="92" type="Ground" x="1014.5" y="556.5"/>
+  <object id="93" type="Ground" x="896.5" y="382.5" width="30" height="66.5"/>
+  <object id="94" type="Ground" x="918" y="458"/>
+  <object id="95" type="Ground" x="918" y="373"/>
+  <object id="96" type="Ground" x="982" y="342"/>
+  <object id="97" type="Border" x="1018.67" y="566.667" width="5.33333" height="426.667"/>
+ </objectgroup>
+</map>

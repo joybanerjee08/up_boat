@@ -1,0 +1,60 @@
+name: up_boat
+description: An exciting game about exploring the underwater world, solving challenges and cleaning it.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flame: ^1.8.2
+  flame_tiled: ^1.19.0
+  flame_audio: ^2.0.5
+  flutter_glow: ^0.3.0
+  flutter_animate: ^4.5.0
+  animated_text_kit: ^4.2.2
+  flutter_secure_storage: ^9.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/
+    - assets/tiles/
+    - assets/images/HUD/
+    - assets/images/Background/
+    - assets/images/Tileset/Underwater/
+    - assets/images/Tileset/Desert/
+    - assets/images/Items/
+    - assets/images/Items/Money/
+    - assets/images/Items/Craft/
+    - assets/images/Items/Trash/
+    - assets/images/Items/Story/
+    - assets/images/Items/Sellable/
+    - assets/images/Items/Consumable/
+    - assets/images/Main Characters/
+    - assets/images/Main Characters/Swimmer/
+    - assets/images/Enemies/Shark/
+    - assets/images/Enemies/Sea Urchin/
+    - assets/images/Enemies/Small Crab/
+    - assets/images/Enemies/Large Crab/
+    - assets/images/Enemies/Puffer Fish/
+    - assets/images/Enemies/Lion Fish/
+    - assets/images/Enemies/Jelly Fish/
+
+  fonts:
+      - family: pacifico
+        fonts:
+          - asset: assets/fonts/pacifico.ttf
+      - family: kodemono
+        fonts:
+          - asset: assets/fonts/kodemono.ttf
